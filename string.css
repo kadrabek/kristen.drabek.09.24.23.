@@ -1,0 +1,17 @@
+body
+{
+    background-color: darkgrey;
+}
+p 
+{
+    font-family: cursive;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: 200;
+    border-block-start-style: solid;
+}
+form
+{
+    font-family: cursive;
+    font-style: oblique;
+}

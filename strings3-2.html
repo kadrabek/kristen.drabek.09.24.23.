@@ -1,0 +1,26 @@
+<!--Kristen Drabek-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "strings2.js"></script>
+    <title>Login</title>
+</head>
+<link rel="stylesheet" href="string.css">
+<body>
+   <center> <p> Login Page </p> </center>
+    <br>
+    <p id = "loginStatus"> Status of Login </p>
+    <form id = "credSubmit" onsubmit = "return false">
+        <br>
+        first name :    <input type = "text" id = "fname"/>
+        <br>
+        last name :     <input type = "text" id = "lname"/>
+        <br>
+        zip code :      <input type = "number" id = "zipNum"/>
+        <input type = "submit" onclick = "checkInput();"/>
+    </form>
+    </p> 
+</body>
+</html>
